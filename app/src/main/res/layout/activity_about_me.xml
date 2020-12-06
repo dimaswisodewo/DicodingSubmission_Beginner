@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginVertical="@dimen/layout_vertical_margin"
+    android:layout_marginHorizontal="@dimen/layout_horizontal_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        style="@style/TextAppearance.AppCompat.Title"/>
+
+    <ImageView
+        android:id="@+id/photo_about"
+        android:layout_width="@dimen/photo_size_detail"
+        android:layout_height="@dimen/photo_size_detail"
+        android:layout_marginHorizontal="@dimen/layout_horizontal_margin"
+        android:layout_marginVertical="@dimen/layout_vertical_margin"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_pic"/>
+
+    <TextView
+        android:id="@+id/name_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/layout_vertical_margin"
+        android:layout_marginHorizontal="@dimen/layout_horizontal_margin"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textAlignment="center"
+        android:text="@string/about_name"/>
+
+    <TextView
+        android:id="@+id/email_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/about_email"/>
+
+</LinearLayout>

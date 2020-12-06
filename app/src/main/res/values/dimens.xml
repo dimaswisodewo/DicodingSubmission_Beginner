@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_horizontal_margin">13dp</dimen>
+    <dimen name="layout_vertical_margin">10dp</dimen>
+    <dimen name="photo_size">80dp</dimen>
+    <dimen name="photo_size_detail">200dp</dimen>
+    <dimen name="photo_margin">10dp</dimen>
+    <dimen name="text_title_size">15dp</dimen>
+    <dimen name="text_description_size">10dp</dimen>
+    <dimen name="text_price_size">15dp</dimen>
+</resources>
